@@ -1,0 +1,9 @@
+Have adequate heat-shrink?
+
+How much automation?
+ - just PIDs (BX1 would work)
+ - still move pumps around, but sensors (DX1)
+
+Level sensors? Using an air pump would double as stirrer..
+
+Have 6'+ width?
