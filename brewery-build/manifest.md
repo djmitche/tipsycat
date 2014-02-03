@@ -1,23 +1,18 @@
-Tools
-=====
+Miscellaneous
+=============
 
 Requirements:
 
 * 1.25" hole in BK for heating element
-* Sight glass holes?
-* Output holes?
+* Step bit - 1 1/8" max
 * Element wrench
 * Labeler
 * Extra 10ga stranded wire, R/B/W/G, T90/THHN
-* Extra 12ga stranded wire, R/B/W/G, T90/THHN
-* LV 18..20ga wire, colors
+* Extra 12ga stranded wire, B/W/G, T90/THHN
+* Telephone station wire / Cat5
 * 10ga ring terminals
 * 12ga spade terminals
-
-### Prices ###
-
-* SS Punch for 1.5" hole - TODO
-* Step bits - TODO
+* SS Punch for 1.25" hole
 
 Controller / Electric
 =====================
@@ -31,22 +26,27 @@ These will be wired entirely separately in this phase.
 Pump Control
 ------------
 
-This is a simple 3-gang outlet box with two 20A switches connected to the two halves of the center receptacle.
-Power comes from a regular grounded NEMA 5-20P.
+This is a simple 2-gang outlet box with two switch/outlet combo devices.
+Unfortunately, these devices are not available in a 20A form, but my supply is 20A.
+Safety would dictate that they be fused down to 15A, but since this is a temporary setup and inline fuses are hard to find, we'll let it slide.
+Power comes from a regular straight-blade NEMA 5-20P.
 The upstream supply is GFCI-protected.
+
+Attaching the cable is a little tricky, since PVC conduit is intended to carry cable internally and terminate into other boxes.
+The best solution seems to be a female threaded adapter and an appropriately sized cable gland.
 
 ### Prices ###
 
-* 3-gang outdoor box + fittings - ??
-* 20A outlet - Lowes = $4
-* 2x 20A switch - Lowes = $6x2 = $12
-* Faceplate - Lowes = $3
-* 8' 12-3 SJOOW - amazon = $7 (partial from 25')
-* 8' 1/2" expandable sleeving - Amazon = $5 (partial from 25')
-* 2x 3/8" x 4" heat-shrink - Amazon = $5
-* L5-20P Plug - Amazon = $8
-
-Option: 15A components with 15A fuse inline
+* 2-gang 1/2" FSE PVC box - Lowes = ??
+* 2-gang PVC faceplate - Lowes = ??
+* 2x 15A switch/outlet combination - Lowes = ??
+* Short length 1/2" conduit - Lowes = ??
+* 1/2" to 1/2" female threaded adapter - Lowes = ??
+* 1/2" thread cable gland - Lowes = ??
+* 8' 12-3 (H/N/G) SJOOW - Lowes = ??
+* 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
+* 2x 3/4" x 4" heat-shrink - Amazon = $0.50 (partial from 10') CART
+* 5-20P straight blade plug - Amazon = $8 CART
 
 Element Control
 ---------------
@@ -55,48 +55,59 @@ A three-way switch controls which of the two elements is active: the brew kettle
 This switch drives contactors suitable for the high current to the elements.
 The HLT hot lead also has an SSR in series with the contactor, connected to an STC-1000 temperature controller.
 
+All of this is contained in a PVC junction box.
+These boxes conveniently have no knockouts or penetrations, so they can be cut and drilled as needed.
+I haven't found information on their NEMA rating, but they do ship with a gasket, giving at least some resistance to water penetration.
+
 ### Prices ###
 
-* 4-space Main Lug Load Center - Lowes = $20
-* 10A DIN-mount Breaker - oscsys = $5
-* 25A SSR - Amazon = $12 w/ sink
+* 8"x8"x4" PVC junction box - Lowes = ??
+* 3/4" PVC box adapter - Lowes = ??
+* 3/4" PVC to 3/4" female threaded adapter - Lowes = ??
+* 3/4" threaded cable gland - Lowes = ??
+* 10A DIN-mount Breaker - oscsys = $5 CART
+* 25A SSR - Amazon = $12 w/ sink CART
 * SSR Heat Sink - included
 * 12VDC supply - have
 * STC-1000 temp controller - have
-* 2P 63a DIN-mount contactor - oscsys = $25
-* 1P 25A DIN-mount contactor (extra pole unused) - oscsys = $16
-* 8' 10-4 SJOOW - Amazon = $18
-* 8' 1/2" expandable sleeving - Amazon = $5 (partial from 25')
-* 3/4" x 4" heat-shrink 2pk - Amazon = $5
-* 3-way 5A switch - OSCSYS = $6 (SKU176014); ebrewsupply = $4.50
-* DIN Rail - oscsys = $4 (12")
-* 1/2" cable clamps
-* L14-30R compatible with load center
-* L5-20R compatible with load center
-
-Option: project board + break out receptacles into boxes
+* 2P 63a DIN-mount contactor - oscsys = $25 CART
+* 1P 25A DIN-mount contactor (extra pole unused) - oscsys = $16 CART
+* L14-30P twist-lock - Amazon = $16 CART
+* 8' 10-4 (H/H/N/G) SJOOW - Lowes = ??
+* 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
+* 3/4" x 4" heat-shrink 2pk - Amazon = $0.50 (partial from 10') CART
+* 3-way 10A switch - ebrewsupply = $4.50 CART
+* 2-way 10A key switch - ebrewsupply = $4.50 CART
+* Green 220V LED - ebrewsupply = $3 CART
+* REd 120V LED - ebrewsupply = $3 CART
+* REd 220V LED - ebrewsupply = $3 CART
+* DIN Rail - oscsys = $4 (12") CART
+* 1/2" cable clamps - Phillips Hardware = ??
+* L14-30R twist-lock - Amazon = $19 CART
+* L5-20R twist-lock - Amazon = $15 CART
+* Round metal faceplages - Amazon = $5 x 2 = $10 CART
 
 Vessel Connections
 ------------------
 
+The electrical connections for the vessels are similar: 
+
 ### Prices ###
 
 * Brew Kettle Connection
-  * L14-30P Plug - Amazon = $8
-  * 8' 10-3 (H/N/G) flexible cord (SJOOW) - Home Depot = $16 (per foot)
-  * 8' 1/2" expandable sleeving - Amazon = $5 (partial from 25')
-  * 3/4" x 4" heat-shrink 2pk - Amazon = $5
+  * L14-30P twist-lock - Amazon = $16 CART
+  * 8' 10-3 (H/N/G) flexible cord (SJOOW) - Lowes = ??
+  * 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
+  * 3/4" x 4" heat-shrink 2pk - Amazon = $0.50 (partial from 10') CART
 
 * HLT Connection
-  * L5-20P Plug - Amazon = $8
-  * 8' 12-3 SJOOW - amazon = $7 (partial from 25')
-  * 8' 1/2" expandable sleeving - Amazon = $5 (partial from 25')
-    * might want 1/4"
-  * 3/4" x 4" heat-shrink 2pk - Amazon = $5
-    * might want 3/8"
+  * L5-20P twist-lock - Amazon = $8 CART
+  * 8' 12-3 (H/N/G) SJOOW - Lowes = ??
+  * 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
+  * 3/4" x 4" heat-shrink 2pk - Amazon = $0.50 (partial from 10') CART
 
-Stand
-=====
+Stand (DONE)
+============
 
 This is assembled as follows, to allow gravity feeding from HLT to MT:
 
@@ -110,16 +121,12 @@ This is assembled as follows, to allow gravity feeding from HLT to MT:
 With the lower tier about 2.5' tall and the upper about 4.5' tall.
 This system can easily accomodate the uneven floor in my basement.
 
-* Joints: 2x4 Basics shelving system
-* Verticals: 4 5' lengths, 4 3' lengths of 2x4
-* Horizontals: 4 6' lengths, 14 2' lengths of 2x4
-
 ### Prices ###
 
-Total: $105
+Total: $92
 
 * Joints - Lowes = $20 x 2 = $40
-* Eleven 8' 2x4's - Lowes = $4x11 = $44
+* 13 8' 2x4's - Lowes = $4x11 = $52
 
 Connections
 ===========
@@ -140,8 +147,8 @@ Need two, to allow recirculation in HLT while recirculating mash.
 
 Total: $143 (have one set)
 
-* Pump - amazon = $160; ryan = $135 (agreed)
-* Ball valve - brewhardware = $18; ryan = free w/ pump
+* Pump - ryan = $135 (agreed)
+* Ball valve - ryan = free w/ pump
 * 2x F-QD - $4 x 2 = $8
 
 Hang-on Filler
@@ -155,9 +162,9 @@ For transferring, need one for boil keettle.
 
 Total: $28 x 2 = $56
 
-* F-QD (MPT) - brewhardware = $4
-* Platic Loc-Line (MPT) - brewhardware = $20
-* 1/2" NPT coupling (FPT) - bargainfittings = $4
+* F-QD (MPT) - brewhardware = $4 CART
+* Platic Loc-Line (MPT) - brewhardware = $20 CART
+* 1/2" NPT coupling (FPT) - brewhardware = $4 CART
 
 Notes:
 
@@ -175,11 +182,11 @@ The existing thermoplastic hose will be adapted with female QD's to attach to a 
 Total = $40
 
 * Copper coil, 3/8" OD 1/4" ID(?) - have
-* Hand Clamp - amazon = $7
-* Cutting board to brace against clamp - amazon = $7 (http://www.amazon.com/Stanton-Trading-2-Inch-Cutting-Board/dp/B0032AM0M6/ref=sr_1_31?s=kitchen&ie=UTF8&qid=1390750336&sr=1-31&keywords=cutting+board)
-* 3/8" hose - 3/8" MPT - ebay = $3 x 2 = $6
-* 3/8" FPT to 1/2" MPT bushing - brewhardware = $4 x 2 = $8
-* D-QD - brewhardware = $6 x 2 = $12
+* Hand Clamp - Lowes = ??
+* Cutting board to brace against clamp - Amazon = $7 CART
+* 3/8" hose - 1/2" MPT - Amazon = $3 x 2 = $6 CART
+* (UNNEEDED) 3/8" FPT to 1/2" MPT bushing - brewhardware = $4 x 2 = $8 CART
+* D-QD - brewhardware = $6 x 2 = $12 CART
 
 Notes:
 
@@ -204,15 +211,15 @@ Features:
 Total: $119
 
 * Heating element
-  * 1500W Element - Amazon = $20
-  * Weldless electrical enclosure - brewhardware EWL1 = $24
+  * 1500W Element - Amazon = $20 CART
+  * Weldless electrical enclosure - brewhardware EWL1 = $24 CART
 
 * Output
-  * Ball valve - brewhardware = $18
-  * Bulkhead - brewhardware VB2 = $15
-  * F-QD - brewhardware = $4
+  * Ball valve - brewhardware = $18 CART
+  * Bulkhead - brewhardware VB2 = $15 CART
+  * F-QD - brewhardware = $4 CART
 
-* Level gauge - brewhardware WLSLC = $28
+* Level gauge - brewhardware WLSLC = $28 CART
 
 Mash Tun
 --------
@@ -234,7 +241,7 @@ Total: $0
 * false bottom - have
 * output w/ ball valve, QD - have
 * Dial temp probe - have
-* Reflectix - shared with boil kettle
+* Reflectix - Lowes = $25 (shared with boil kettle)
 
 Boil Kettle
 -----------
@@ -250,16 +257,16 @@ Features:
 
 Total: $212
 
-* Concord 80qt/20g - amazon = $100 (only $10 more than 60qt)
+* Concord 80qt/20g - Amazon = $100 (only $10 more than 60qt) CART
 
 * Heating element
   * 5500W element - have
-  * Weldless electrical enclosure - brewhardware EWL1 = $24
-  * Reflectix - $25 (shared with mash tun)
+  * Weldless electrical enclosure - brewhardware EWL1 = $24 CART
+  * Reflectix - Lowes = $25 (shared with mash tun)
 
 * Output
-  * Bulkhead - brewhardware = $14
-  * Ball valve - brewhardware = $18
-  * F-QD - brewhardware = $4
+  * Bulkhead - brewhardware = $14 CART
+  * Ball valve - brewhardware = $18 CART
+  * F-QD - brewhardware = $4 CART
 
-* Level gauge - brewhardware LP = $27
+* Level gauge - brewhardware LP = $27 CART

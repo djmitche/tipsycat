@@ -7,3 +7,13 @@ How much automation?
 Level sensors? Using an air pump would double as stirrer..
 
 Have 6'+ width?
+
+
+SJOOW
+-----
+
+(note that conductor counts include ground)
+
+* 12/3 = 10.6mm diameter = 0.417323"
+* 10/3 = 15mm diameter = 0.590551"
+* 10/4 = 17mm diameter = 0.669291
