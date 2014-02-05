@@ -3,16 +3,9 @@ Miscellaneous
 
 Requirements:
 
-* 1.25" hole in BK for heating element
-* Step bit - 1 1/8" max
+* Step bit - 1 1/4" at least
 * Element wrench
 * Labeler
-* Extra 10ga stranded wire, R/B/W/G, T90/THHN
-* Extra 12ga stranded wire, B/W/G, T90/THHN
-* Telephone station wire / Cat5
-* 10ga ring terminals
-* 12ga spade terminals
-* SS Punch for 1.25" hole
 
 Controller / Electric
 =====================
@@ -22,6 +15,21 @@ It needs to be able to control the various electrical components with switches, 
 
 I have two distinct circuits - one 240V/30A supply for heating, and one 120V/20A for pumps and other bits.
 These will be wired entirely separately in this phase.
+
+Miscellaneous
+-------------
+
+These are consumables involved in the project.
+Most of these are bulk purchases far in excess of what's required for this project.
+Tools aren't included here.
+
+### Prices ###
+
+* THHN Black / Green / Red / White 10ga wire - Lowes = $18 x 4 = $76
+* THHN Black / White - Lowes = $15 x 2 = $30
+* Cat5 for signals - Lowes = 250' for $37
+* 10ga ring terminals - Phillips = $3
+* 12ga spade terminals - Phillips = $3
 
 Pump Control
 ------------
@@ -37,16 +45,18 @@ The best solution seems to be a female threaded adapter and an appropriately siz
 
 ### Prices ###
 
-* 2-gang 1/2" FSE PVC box - Lowes = ??
-* 2-gang PVC faceplate - Lowes = ??
-* 2x 15A switch/outlet combination - Lowes = ??
-* Short length 1/2" conduit - Lowes = ??
-* 1/2" to 1/2" female threaded adapter - Lowes = ??
-* 1/2" thread cable gland - Lowes = ??
-* 8' 12-3 (H/N/G) SJOOW - Lowes = ??
-* 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
-* 2x 3/4" x 4" heat-shrink - Amazon = $0.50 (partial from 10') CART
-* 5-20P straight blade plug - Amazon = $8 CART
+Total: $52
+
+* 2-gang 1/2" FSE PVC box - Lowes = $5
+* 2-gang PVC faceplate - Lowes = $3
+* 2x 15A switch/outlet combination - Lowes = $9 x 2 = $18
+* Short length 1/2" conduit - Lowes = $1
+* 1/2" to 1/2" female threaded adapter - Lowes = $1
+* 1/2" thread cable gland - Lowes = $1
+* 8' 12-3 (H/N/G) SJOOW - Lowes = $10
+* 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50')
+* 2x 3/4" x 4" heat-shrink - Amazon = $1 (partial from 10')
+* 5-20P straight blade plug - Amazon = $8
 
 Element Control
 ---------------
@@ -61,31 +71,32 @@ I haven't found information on their NEMA rating, but they do ship with a gasket
 
 ### Prices ###
 
-* 8"x8"x4" PVC junction box - Lowes = ??
-* 3/4" PVC box adapter - Lowes = ??
-* 3/4" PVC to 3/4" female threaded adapter - Lowes = ??
-* 3/4" threaded cable gland - Lowes = ??
-* 10A DIN-mount Breaker - oscsys = $5 CART
-* 25A SSR - Amazon = $12 w/ sink CART
+Total: $187
+
+* 8"x8"x4" PVC junction box - Lowes = $22
+* 3/4" PVC box adapter - Lowes = $1
+* 3/4" PVC to 3/4" female threaded adapter - Lowes = $1
+* 3/4" threaded cable gland - Lowes = $1
+* 10A DIN-mount Breaker - oscsys = $5
+* 25A SSR - Amazon = $12 w/ sink
 * SSR Heat Sink - included
 * 12VDC supply - have
 * STC-1000 temp controller - have
-* 2P 63a DIN-mount contactor - oscsys = $25 CART
-* 1P 25A DIN-mount contactor (extra pole unused) - oscsys = $16 CART
-* L14-30P twist-lock - Amazon = $16 CART
-* 8' 10-4 (H/H/N/G) SJOOW - Lowes = ??
-* 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
-* 3/4" x 4" heat-shrink 2pk - Amazon = $0.50 (partial from 10') CART
-* 3-way 10A switch - ebrewsupply = $4.50 CART
-* 2-way 10A key switch - ebrewsupply = $4.50 CART
-* Green 220V LED - ebrewsupply = $3 CART
-* REd 120V LED - ebrewsupply = $3 CART
-* REd 220V LED - ebrewsupply = $3 CART
-* DIN Rail - oscsys = $4 (12") CART
-* 1/2" cable clamps - Phillips Hardware = ??
-* L14-30R twist-lock - Amazon = $19 CART
-* L5-20R twist-lock - Amazon = $15 CART
-* Round metal faceplages - Amazon = $5 x 2 = $10 CART
+* 2P 63a DIN-mount contactor - oscsys = $25
+* 1P 25A DIN-mount contactor (extra pole unused) - oscsys = $16
+* L14-30P twist-lock - Amazon = $16
+* 8' 10-4 (H/H/N/G) SJOOW - Lowes = $16
+* 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50')
+* 3/4" x 4" heat-shrink 2pk - Amazon = $1 (partial from 10')
+* 3-way 10A switch - ebrewsupply = $5
+* 2-way 10A key switch - ebrewsupply = $5
+* Green 220V LED - ebrewsupply = $3
+* REd 120V LED - ebrewsupply = $3
+* REd 220V LED - ebrewsupply = $3
+* DIN Rail - oscsys = $4 (12")
+* L14-30R twist-lock - Amazon = $19
+* L5-20R twist-lock - Amazon = $15
+* Round metal faceplages - Amazon = $5 x 2 = $10
 
 Vessel Connections
 ------------------
@@ -94,17 +105,19 @@ The electrical connections for the vessels are similar:
 
 ### Prices ###
 
+Total: $59
+
 * Brew Kettle Connection
-  * L14-30P twist-lock - Amazon = $16 CART
-  * 8' 10-3 (H/N/G) flexible cord (SJOOW) - Lowes = ??
-  * 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
-  * 3/4" x 4" heat-shrink 2pk - Amazon = $0.50 (partial from 10') CART
+  * L14-30P twist-lock - Amazon = $16
+  * 8' 10-3 (H/N/G) flexible cord (SJOOW) - Lowes = $15
+  * 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50')
+  * 3/4" x 4" heat-shrink 2pk - Amazon = $1 (partial from 10')
 
 * HLT Connection
-  * L5-20P twist-lock - Amazon = $8 CART
-  * 8' 12-3 (H/N/G) SJOOW - Lowes = ??
-  * 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50') CART
-  * 3/4" x 4" heat-shrink 2pk - Amazon = $0.50 (partial from 10') CART
+  * L5-20P twist-lock - Amazon = $8
+  * 8' 12-3 (H/N/G) SJOOW - Lowes = $10
+  * 8' 1/2" expandable sleeving - Amazon = $4 (partial from 50')
+  * 3/4" x 4" heat-shrink 2pk - Amazon = $1 (partial from 10')
 
 Stand (DONE)
 ============
@@ -126,7 +139,7 @@ This system can easily accomodate the uneven floor in my basement.
 Total: $92
 
 * Joints - Lowes = $20 x 2 = $40
-* 13 8' 2x4's - Lowes = $4x11 = $52
+* 13 8' 2x4's - Lowes = $4x13 = $52
 
 Connections
 ===========
@@ -160,16 +173,11 @@ For transferring, need one for boil keettle.
 
 ### Prices ###
 
-Total: $28 x 2 = $56
+Total: $28
 
-* F-QD (MPT) - brewhardware = $4 CART
-* Platic Loc-Line (MPT) - brewhardware = $20 CART
-* 1/2" NPT coupling (FPT) - brewhardware = $4 CART
-
-Notes:
-
-* Existing fermenter filler has an F-QD and hose barb adapter
-* Could use one with Loc-Line and one with 18" silicone tubing, just adding an elbow
+* F-QD (MPT) - brewhardware = $4
+* Platic Loc-Line (MPT) - brewhardware = $20
+* 1/2" NPT coupling (FPT) - brewhardware = $4
 
 HERMS Tube
 ----------
@@ -179,14 +187,14 @@ The existing thermoplastic hose will be adapted with female QD's to attach to a 
 
 ### Prices ###
 
-Total = $40
+Total: $38
 
 * Copper coil, 3/8" OD 1/4" ID(?) - have
-* Hand Clamp - Lowes = ??
-* Cutting board to brace against clamp - Amazon = $7 CART
-* 3/8" hose - 1/2" MPT - Amazon = $3 x 2 = $6 CART
-* (UNNEEDED) 3/8" FPT to 1/2" MPT bushing - brewhardware = $4 x 2 = $8 CART
-* D-QD - brewhardware = $6 x 2 = $12 CART
+* Hand Clamp - Lowes = $3
+* Cutting board to brace against clamp - Amazon = $7
+* 3/8" hose - 1/2" MPT - Amazon = $3 x 2 = $6
+* (UNNEEDED) 3/8" FPT to 1/2" MPT bushing - brewhardware = $4 x 2 = $8
+* D-QD - brewhardware = $6 x 2 = $12
 
 Notes:
 
@@ -208,18 +216,18 @@ Features:
 
 ### Prices ###
 
-Total: $119
+Total: $109
 
 * Heating element
-  * 1500W Element - Amazon = $20 CART
-  * Weldless electrical enclosure - brewhardware EWL1 = $24 CART
+  * 1500W Element - Amazon = $20
+  * Weldless electrical enclosure - brewhardware EWL1 = $24
 
 * Output
-  * Ball valve - brewhardware = $18 CART
-  * Bulkhead - brewhardware VB2 = $15 CART
-  * F-QD - brewhardware = $4 CART
+  * Ball valve - brewhardware = $18
+  * Bulkhead - brewhardware VB2 = $15
+  * F-QD - brewhardware = $4
 
-* Level gauge - brewhardware WLSLC = $28 CART
+* Level gauge - brewhardware WLSLC = $28
 
 Mash Tun
 --------
@@ -235,13 +243,13 @@ Features:
 
 ### Prices ###
 
-Total: $0
+Total: $16
 
 * 60qt pot - have
 * false bottom - have
 * output w/ ball valve, QD - have
 * Dial temp probe - have
-* Reflectix - Lowes = $25 (shared with boil kettle)
+* Reflectix - Lowes = $16 (shared with boil kettle)
 
 Boil Kettle
 -----------
@@ -257,16 +265,16 @@ Features:
 
 Total: $212
 
-* Concord 80qt/20g - Amazon = $100 (only $10 more than 60qt) CART
+* Concord 80qt/20g - Amazon = $100 (only $10 more than 60qt)
 
 * Heating element
   * 5500W element - have
-  * Weldless electrical enclosure - brewhardware EWL1 = $24 CART
+  * Weldless electrical enclosure - brewhardware EWL1 = $24
   * Reflectix - Lowes = $25 (shared with mash tun)
 
 * Output
-  * Bulkhead - brewhardware = $14 CART
-  * Ball valve - brewhardware = $18 CART
-  * F-QD - brewhardware = $4 CART
+  * Bulkhead - brewhardware = $14
+  * Ball valve - brewhardware = $18
+  * F-QD - brewhardware = $4
 
-* Level gauge - brewhardware LP = $27 CART
+* Level gauge - brewhardware LP = $27
