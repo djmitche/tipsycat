@@ -263,14 +263,14 @@ Features:
 
 ### Prices ###
 
-Total: $212
+Total: $187
 
 * Concord 80qt/20g - Amazon = $100 (only $10 more than 60qt)
 
 * Heating element
   * 5500W element - have
   * Weldless electrical enclosure - brewhardware EWL1 = $24
-  * Reflectix - Lowes = $25 (shared with mash tun)
+  * Reflectix - (shared with mash tun)
 
 * Output
   * Bulkhead - brewhardware = $14
